@@ -1,5 +1,6 @@
 <div class="d-flex align-items-center justify-content-center">
   <h1>Welcome to schedule tweets</h1>
+  <%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
 </div>
 
 <%= button_to "Connect Twitter", "/auth/twitter", method: :post, class: "btn btn-primary" %>
