@@ -61,3 +61,4 @@ gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "twitter", "~> 7.0"
 
 gem "sidekiq", "~> 6.2"
+gem 'react-rails'
